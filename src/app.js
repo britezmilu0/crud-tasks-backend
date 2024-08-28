@@ -1,6 +1,6 @@
 import express from 'express'; //ASI TENGO QUE COLOCAR EN TODOS LOS COSNT REQUIRE, Y A LOS ARCHIVOS QUE TENGO EN JS AGREGARLE .JS 
 import { connectDb } from './bd.js';
-import {taskRouter} from "./src/routes/tasks.routes.js";
+import {taskRouter} from "./serv/src/routes/tasks.routes.js";
 
 const app = express();
 
